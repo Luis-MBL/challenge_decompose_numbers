@@ -10,7 +10,7 @@ interface ICacheConfig {
 export default {
   config: {
     redis: {
-      host: process.env.REDIS_HOST,
+      host: 'redis',
       port: +process.env.REDIS_PORT,
       password: process.env.REDIS_PASSWORD || undefined,
     },
