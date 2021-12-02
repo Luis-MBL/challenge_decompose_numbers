@@ -1,7 +1,7 @@
 {
   "name": "challenge_decompose_numbers",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "cli.js",
   "repository": "https://github.com/Luis-MBL/challenge_decompose_numbers",
   "author": "Luis Miguel",
   "license": "MIT",
@@ -28,6 +28,7 @@
   },
   "dependencies": {
     "celebrate": "^15.0.0",
+    "commander": "^8.3.0",
     "cors": "^2.8.5",
     "dotenv": "^10.0.0",
     "express": "^4.17.1",

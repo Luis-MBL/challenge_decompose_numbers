@@ -1,6 +1,6 @@
 import decomposeNumberRouter from '@modules/decompose-numbers/infra/http/routes/decompose.number.routes';
 import sessionRouter from '@modules/sessions/infra/http/routes/session.routes';
-import { Request, Response, Router } from 'express';
+import { Router } from 'express';
 
 const routes = Router();
 

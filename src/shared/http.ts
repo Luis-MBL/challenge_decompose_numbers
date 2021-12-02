@@ -2,7 +2,6 @@ import 'express-async-errors';
 import 'dotenv/config';
 import express, { NextFunction, Request, Response } from 'express';
 import http from 'http';
-import path from 'path';
 
 import routes from './infra/routes';
 import { errors } from 'celebrate';
@@ -10,7 +9,6 @@ import AppError from './errors/AppError';
 
 const app = express();
 
-app.use(express.static(path.join(__dirname, '..', '..', 'public')));
 app.use(express.json());
 app.use(routes);
 
